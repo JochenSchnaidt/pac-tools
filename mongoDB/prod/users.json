@@ -1,0 +1,1 @@
+{"_id":ObjectId("000000000000000000000001"),"_class":"com.prodyna.pac.persistence.entities.User","firstName":"Initial","lastName":"Administrator","email":"initial_administrator@no_valid_domain.___","password" : "$2a$10$txOa35JHXjezQ/4WYm7BL.1djyQCjhEH2Iox0FGmMRHmaOo.CAjAy","administrator":true,"creationDate":ISODate("2000-00-01T10:00:00.000Z")}
