@@ -1,0 +1,108 @@
+{
+	"_id" : ObjectId("000000000000000000000001"),
+	"_class" : "com.prodyna.pac.persistence.entities.Vote",
+	"topic" : "Gitarre Music",
+	"description" : "What is the best band in the world?",
+	"options" : [
+		{
+			"_id" : "option_2",
+			"name" : "Metallica",
+			"counter" : NumberLong(5)
+		},
+		{
+			"_id" : "option_1",
+			"name" : "Foo Fighters",
+			"counter" : NumberLong(4)
+		},
+		{
+			"_id" : "option_3",
+			"name" : "Volbeat",
+			"counter" : NumberLong(3)
+		}
+	],
+	"editable" : false,
+	"creationDate" : ISODate("2016-05-01T10:00:00.000Z"),
+	"createdBy" : "0000000000000000000000af",
+	"createdByUserName" : "James Hetflield"
+}
+{
+	"_id" : ObjectId("000000000000000000000002"),
+	"_class" : "com.prodyna.pac.persistence.entities.Vote",
+	"topic" : "Scary Movie",
+	"description" : "What is your favorite horror movie?",
+	"options" : [
+		{
+			"_id" : "option_2",
+			"name" : "Scream",
+			"counter" : NumberLong(47)
+		},
+		{
+			"_id" : "option_1",
+			"name" : "Friday the 13th",
+			"counter" : NumberLong(23)
+		},
+		{
+			"_id" : "option_3",
+			"name" : "Volbeat",
+			"counter" : NumberLong(3)
+		}
+	],
+	"editable" : false,
+	"creationDate" : ISODate("2016-05-01T10:00:00.000Z"),
+	"createdBy" : "0000000000000000000000af",
+	"createdByUserName" : "Wes Craven"
+}
+{
+	"_id" : ObjectId("000000000000000000000003"),
+	"_class" : "com.prodyna.pac.persistence.entities.Vote",
+	"topic" : "Matrix",
+	"description" : "What is the Matrix?",
+	"options" : [
+		{
+			"_id" : "option_2",
+			"name" : "Control",
+			"counter" : NumberLong(0)
+		},
+		{
+			"_id" : "option_1",
+			"name" : "Funny",
+			"counter" : NumberLong(0)
+		},
+		{
+			"_id" : "option_3",
+			"name" : "A movie...",
+			"counter" : NumberLong(0)
+		}
+	],
+	"editable" : true,
+	"creationDate" : ISODate("2016-05-01T10:00:00.000Z"),
+	"createdBy" : "000000000000000000000002",
+	"createdByUserName" : "Johnny Mnemonic"
+}
+{
+	"_id" : ObjectId("000000000000000000000004"),
+	"_class" : "com.prodyna.pac.persistence.entities.Vote",
+	"topic" : "Laboratory",
+	"description" : "Rate the best device in my laboratory.",
+	"options" : [
+		{
+			"_id" : "option_2",
+			"name" : "PC",
+			"counter" : NumberLong(2)
+		},
+		{
+			"_id" : "option_1",
+			"name" : "Anything else",
+			"counter" : NumberLong(0)
+		},
+		{
+			"_id" : "option_3",
+			"name" : "Shooting range",
+			"counter" : NumberLong(1)
+		}
+	],
+	"editable" : false,
+	"creationDate" : ISODate("2016-05-01T10:00:00.000Z"),
+	"createdBy" : "000000000000000000000003",
+	"createdByUserName" : "Abigail Sciuto"
+}
